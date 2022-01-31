@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+@import 'Nav';
+@import 'Home';
+@import 'MovieReviews';
+@import 'Universal';
+@import 'About';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+h2 {
+    font-size: 1.9em;
+    text-decoration: underline 4px solid #e50914;
+}
+
+h3 {
+
+    text-align: center;
+    font-size: 1.7em;
+    text-decoration: underline 4px solid #e50914;
+
+}
+
+p {
+    margin: 0px;
+}
+
+p:last-child {
+    margin-bottom: 10px;
+}
+
+
+
+
+.app-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+
+
+}
+
+
+@media (max-width: 576px) {
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    .app {
+        max-width: 400px;
+    }
+
+    .app-wrapper {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}

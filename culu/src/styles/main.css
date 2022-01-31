@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: yellow;
+}
+
+h1 {
+  color: red;
+}
+
+p {
+  margin: 0px;
+}
+
+p:last-child {
+  margin-bottom: 10px;
+}
+
+.concert-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+.concert-wrapper h2 {
+  max-width: 400px;
+  font-size: 18px;
+  height: 70px;
+}
+.concert-wrapper .concert-container {
+  border-radius: 10px;
+  width: 100%;
+}
+.concert-wrapper .concert-container .info-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.concert-wrapper .concert-container .info-container .title-container {
+  width: 100%;
+}
+.concert-wrapper .concert-container .info-container .title-container img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+.concert-wrapper .concert-container .info-container .localinfo-container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+/*# sourceMappingURL=main.css.map */

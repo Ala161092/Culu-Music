@@ -1,0 +1,65 @@
+/*--------------Homepage Styling-----------*/
+
+
+.home-wrapper {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+
+    h1 {
+        color: #e50914;
+        font-size: 75px;
+    }
+
+    h2 {
+        text-decoration: none;
+    }
+
+
+    .site-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 300px;
+        font-weight: 700;
+        font-size: 1.2em;
+        margin: 0 auto;
+        gap: 20px;
+        padding-bottom: 30px;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+
+    .home-wrapper {
+        width: 100%;
+        margin: 0 auto;
+
+        img {
+            width: 300px;
+        }
+
+
+        .site-list {
+            font-size: 1.0em;
+        }
+    }
+
+
+
+}
+
+
+@media (max-width: 810px) {
+
+
+    .home-wrapper {
+
+        img {
+            width: 450px;
+        }
+    }
+}
