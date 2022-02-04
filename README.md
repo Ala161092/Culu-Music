@@ -42,7 +42,7 @@ https://culuflix.netlify.app/
 # Getting Started
 I spent a few hours searching for a public API that my React app would consume. I wanted to ensure the API would be based on something that I would enjoy using, so I decided to go with the Movie Database API. 
 
-The Movie Database Api offers extensive metadata including but not limited to; trending movies, cast information and reviews for movies, tv shows and people. 
+The Movie Database API offers extensive metadata including but not limited to; trending movies, cast information and reviews for movies, tv shows and people. 
 
 Once I had landed on which API to use, I wanted to draw up a quick wireframe for the site. I find wireframes so useful as it allows me to not waste time procrastinating on what to include and how the site would look. This was even more imperative on this project due to the 48 hour deadline.
 
